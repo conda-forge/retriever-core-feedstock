@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.3"
+  version: "0.0.4"
   python_min: "3.11"
 
 recipe:
@@ -10,7 +10,7 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/r/retriever-core/retriever_core-${{ version }}.tar.gz
-  sha256: 1211dd67912a405028494655d791275c69f5f17cf83c32e67a3dca1945e429d7
+  sha256: e8739f3bcb3e4ae80ff89d78f28606d29b1cbb24231a0f8b3966cb3857fb41f2
 
 build:
   number: 0
